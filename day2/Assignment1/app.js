@@ -7,10 +7,7 @@ function getRandomColor() {
   return color;
 }
 
-// Function to change the background color of the body
 function changeBackgroundColor() {
   const randomColor = getRandomColor();
   document.body.style.backgroundColor = randomColor;
 }
-
-// document.addEventListener("click", changeBackgroundColor);
